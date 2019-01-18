@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <form action= "/questions/<% params[:id] %> edit" method="patch">
+            <input type="textarea" name= "question" placeholder="">
+            <input type="text" name="answer" placeholder="Answer">
+            <input type="text" name="flag" placeholder="Flag">
+            <input type="submit" value="Edit">
+        </form>
+    </body>
+</html>
